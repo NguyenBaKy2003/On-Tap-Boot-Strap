@@ -98,6 +98,9 @@
       .heading-section {
         padding: 38px;
       }
+      .fake-img {
+        display: block;
+      }
       @media (max-width: 768px) {
         .heading {
           font-size: 40px;
@@ -109,6 +112,9 @@
 
         .p-content {
           width: 453px;
+        }
+        .fake-img {
+          display: none;
         }
       }
     </style>
@@ -202,7 +208,11 @@
                     </p>
                     <p><a href="">Continue reading</a></p>
                   </div>
-                  <div class="col-md-4 bg-secondary rounded-end-1"></div>
+                  <div
+                    class="col-md-4 bg-secondary fake-img rounded-end-1 d-flex justify-content-center align-items-center d-none d-md-flex"
+                  >
+                    <p class="p-section">Thumbnail</p>
+                  </div>
                 </div>
               </div>
               <div class="container-md col-md border rounded-1">
@@ -217,7 +227,11 @@
                     </p>
                     <p><a href="">Continue reading</a></p>
                   </div>
-                  <div class="col-md-4 bg-secondary rounded-end-1"></div>
+                  <div
+                    class="col-md-4 bg-secondary fake-img rounded-end-1 d-flex justify-content-center align-items-center d-none d-md-flex"
+                  >
+                    <p class="p-section">Thumbnail</p>
+                  </div>
                 </div>
               </div>
             </div>
